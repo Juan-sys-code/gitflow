@@ -39,3 +39,14 @@ git diff
 ### Capturas:
 - Captura de `git status` mostrando el conflicto.
 - Captura del archivo `index.php` después de la resolución.
+
+
+## Paso 5: Eliminación de un archivo
+1. Se creó una nueva funcionalidad en Git Flow llamada `feature/borrar-mi-archivo`.
+2. Se eliminó el archivo `alumnos/tu_nombre.php`.
+3. Se confirmó y subió la eliminación a la rama `develop`.
+
+### Captura del log:
+(Ejecuta y pega la captura de pantalla del siguiente comando)
+```bash
+git log --oneline
