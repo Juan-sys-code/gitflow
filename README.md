@@ -50,3 +50,9 @@ git diff
 (Ejecuta y pega la captura de pantalla del siguiente comando)
 ```bash
 git log --oneline
+
+
+## Paso 6: Publicación de la versión final
+1. Se creó una release en Git Flow con el nombre `v1.0`.
+2. Se finalizó la versión y se fusionó en la rama `main`.
+3. Se creó la etiqueta `v1.0` y se listaron las etiquetas existentes usando `git tag`.
