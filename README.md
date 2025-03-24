@@ -10,3 +10,13 @@
 (Ejecuta y pega la captura de pantalla del siguiente comando)
 ```bash
 git branch -a
+
+
+## Paso 2: Creación de un archivo PHP
+1. Se creó una nueva funcionalidad en Git Flow con el nombre `feature/crear-mi-archivo`.
+2. Dentro de la carpeta `alumnos/`, se creó el archivo PHP `tu_nombre.php` con el siguiente contenido:
+   ```php
+   <?php
+   // Archivo: alumnos/tu_nombre.php
+   echo "Hola, soy [Tu Nombre] y estoy aprendiendo Git Flow!";
+   ?>
