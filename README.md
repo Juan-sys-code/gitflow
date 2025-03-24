@@ -29,3 +29,13 @@ git branch -a
 (Ejecuta y pega la captura de pantalla del siguiente comando antes de confirmar los cambios)
 ```bash
 git diff
+
+
+## Paso 4: Resolución de conflictos
+1. Se intentó fusionar la rama `feature/otra-funcionalidad` en `develop`.
+2. Se presentó un conflicto en el archivo `index.php`, el cual fue resuelto manualmente.
+3. Se confirmó y subió la resolución del conflicto.
+
+### Capturas:
+- Captura de `git status` mostrando el conflicto.
+- Captura del archivo `index.php` después de la resolución.
