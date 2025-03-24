@@ -20,3 +20,12 @@ git branch -a
    // Archivo: alumnos/tu_nombre.php
    echo "Hola, soy [Tu Nombre] y estoy aprendiendo Git Flow!";
    ?>
+## Paso 3: Modificación de un archivo existente
+1. Se creó una nueva funcionalidad en Git Flow llamada `feature/modificar-index`.
+2. Se agregó la línea de código `include "alumnos/tu_nombre.php";` en el archivo `index.php`.
+3. Se confirmó y subió la funcionalidad a la rama `develop`.
+
+### Captura de git diff:
+(Ejecuta y pega la captura de pantalla del siguiente comando antes de confirmar los cambios)
+```bash
+git diff
